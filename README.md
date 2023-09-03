@@ -1,2 +1,2 @@
 # CreativeCoding
-Processing creations by me!
+Processing creations!
