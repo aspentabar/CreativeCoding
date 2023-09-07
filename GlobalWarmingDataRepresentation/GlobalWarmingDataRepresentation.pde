@@ -328,7 +328,7 @@ void displayScene2() {
   circle(300, 300, 50);
   
   //Background sky:
-  fill(91, 170, 250);
+  fill(135,206,235);
   rect( 0, 0, width, height);
   
   //Blanket of ice:
