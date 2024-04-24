@@ -1,0 +1,243 @@
+
+/* Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+#statistics-section, #legislation-section, #prevention-section, #resources-section, #community-section, #media-gallery-section, #cta-section, #related-stories-section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    width: 70%;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.stat {
+    margin-bottom: 10px;
+}
+
+.media {
+    margin-bottom: 10px;
+}
+
+.media img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 10;
+    line-height: 1.5;
+}
+
+.number1 {
+    font-size: 70px;
+}
+
+.p1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.p2 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.p3 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+.sketch {
+    background-color: #f2f2f2;
+}
+
+
+#article-section {
+    width: 70%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: justify;
+}
+
+.par1 {
+    font-size: 1.1rem;
+    line-height: 1.6; 
+    color: #333; 
+}
+
+/* Help Links */
+#help-section {
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#help-section h2 {
+    margin-bottom: 10px;
+}
+
+.help-links {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+    gap: 10px; 
+}
+
+.help-links li a {
+    display: block;
+    padding: 10px 20px; 
+    background-color: #919191;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.help-links li a:hover {
+    background-color: #000000;
+}
+
+
+
+#interaction-instructions {
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    width: 70%;
+    text-align: center;
+}
+
+
+#interaction-instructions .instruction-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#interaction-instructions .instruction-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Chart */
+.chart-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.stat {
+    margin-bottom: 10px;
+}
+
+.stat ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stat ul li {
+    margin: 5px 0;
+}
+
+.stat p strong {
+    color: #cc0000;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#footer-credits {
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+

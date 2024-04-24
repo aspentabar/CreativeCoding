@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact of School Shootings</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+
+
+<header>
+    <br>
+    <h1>More than </h1>
+    <h1 class = "number1"> 370,000</h1>
+    <h1>students have experienced gun </h1>
+    <h1>violence at school since Columbine</h1>
+    <br>
+</header>
+
+
+<main>
+    <section id="visualization">
+        <br>
+        <h4 class="instruction-title"> </h4>
+        
+            <section id="interaction-instructions">
+                <h4 class="instruction-title">Interact with the Visualization Below</h4>
+                <p class="instruction-description">
+                    Click to visualize the data. Each dot represents a student who has been exposed to gun violence at school.
+                </p>
+            </section>
+
+            <hr>
+        <div id="visualization-container">
+            <script src="sketch.js" class="sketch"></script>
+        </div>
+    </section>
+</main>
+
+
+
+<hr>
+<br>
+
+
+
+<div id="article-section">
+    <h2 class="p1">Psychological Trauma is Just as Significant as Physical Trauma</h2>
+
+    <p class="par1"> The United States has had a disproportionately high number of school shootings compared to other nations. Since the infamous Columbine shooting in 1999, there have been over 390 school shootings in the United States, far more than any other country.</p>
+
+    <p class="par1">School shootings can have severe and long-lasting mental health impacts on students who are directly involved as well as the broader school community. Some potential mental health effects include:
+        <br>
+        <br>
+        Trauma and PTSD - Students who witness or experience a shooting first-hand are at high risk of developing post-traumatic stress disorder (PTSD). Symptoms can include flashbacks, nightmares, severe anxiety, and uncontrollable thoughts about the event.
+        <br>
+        Depression and Grief - The sudden and violent loss of friends, teachers, or classmates can trigger depression, sadness, anger, and complicated grief reactions in survivors.
+        <br>
+        Anxiety Disorders - The shooting may leave students with a sustained feeling of panic, terror, or impending danger. This can manifest as phobias, separation anxiety, social anxiety, or general elevated stress levels.
+        <br>
+        Fear and Avoidance - Students may develop a fear of returning to school, which can impair academic performance if severe enough. A persistent state of hypervigilance about potential future threats can also occur.
+        <br>
+        <br>
+        The mental health impacts can reverberate even for those not present during the event as the school community grieves and feels a diminished sense of safety and security.
+        It's important that age appropriate mental health support services are made available to help students and staff work through the psychological fallout of these tragedies. With time and care, healing is possible, but the effects can linger or manifest in unhealthy ways years later if not properly dealt with. The trauma is just as real for those psychologically impacted as it is for the physical victims.</p>
+</div>
+
+<br><br>
+
+<div id="help-section">
+    <h2>Support Groups for People Directly Affected by Gun Violence</h2>
+    <ul class="help-links">
+        <li><a href="https://www.traumasurvivorsnetwork.org/pages/home" target="_blank">Trauma Survivors Network</a></li>
+        <li><a href="https://ovc.ojp.gov/directory-crime-victim-services" target="_blank">Directory of Crime Victim Services</a></li>
+        <li><a href="https://survivorsempowered.org/" target="_blank">Survivors Empowered</a></li>
+        <li><a href="https://www.therebelsproject.org/" target="_blank">The Rebels Project</a></li>
+        <li><a href="https://www.newtownactionalliancefoundation.org/national-vigil-for-all-victims-of-gun-violence/" target="_blank">National Vigil for All Victims of Gun Violence</a></li>
+    </ul>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<section id="statistics-section">
+<div class="chart-container">
+    <h3>School Shootings by Year</h3>
+    <canvas id="incidentsChart"></canvas>
+    <script>
+        // JavaScript to generate a chart using Chart.js
+        var ctx = document.getElementById('incidentsChart').getContext('2d');
+        var incidentsChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016', '2017', '2018', '2019', '2020', '2021', '2022'],
+                datasets: [{
+                    label: 'Number of Incidents',
+                    data: [7, 12, 13, 5, 12, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 15, 30, 27, 9, 42, 46],
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</div>
+</section>
+
+
+<br><br><br>
+
+
+<h2 class="p1">There have been 404 school shootings in the United States since 1999</h2>
+
+<div id="article-section">
+<p class="par1">The number of school shootings has risen dramatically across the United States over the past couple of decades.
+    This upward trend represents a major escalation of gun violence impacting schools compared to previous decades.
+     In the 1990s, the highest number of school shootings in a single year was 15.
+     The 1980s never saw more than 4 school shootings annually. In 2023 the number of school shootings has increased by greater than 6 times the amount in 1999.
+     <br><br>
+     While progress has been made in implementing physical security measures and protocols, the psychological aftermath remains a largely unaddressed and underfunded aspect of this issue.
+      It is imperative that we prioritize not only preventative measures but also comprehensive mental health support systems for those impacted, both directly and indirectly.
+</p>
+
+</div>
+
+<br><br><br>
+
+
+<!-- Footer Section -->
+<footer>
+    <div id="footer-content">
+        <h4>Impact of School Shootings</h4>
+        <nav>
+            <ul>
+                <li><a href="#visualization">Data Visualization</a></li>
+                <li><a href="#article-section">Information</a></li>
+                <li><a href="#help-section">Help Links</a></li>
+                <li><a href="#statistics-section">Statistics</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <div id="footer-credits">
+        <p>Designed by Aspen Tabar</p>
+    </div>
+</footer>
+
+</body>
+</html>
