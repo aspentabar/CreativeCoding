@@ -26,7 +26,7 @@ Each file in this repository represents a different creative coding experiment. 
 **Pixle Project** - An animation where four colors – Red, Blue, Green, and Yellow – have an intense contest for dominance over the shared space.
 
 
-**Iterative Pattern** - Artwork within the Museum Moderner Kunst Stiftung Ludwig in Vienna, Austria recreated a digital art. 
+**Iterative Pattern** - Artwork within the Museum Moderner Kunst Stiftung Ludwig in Vienna, Austria recreated as digital art. 
 
 
 ![IMG_9060 2](https://github.com/user-attachments/assets/484589b3-989b-48b2-a311-0c106ef3cf14)
