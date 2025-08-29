@@ -1,2 +1,2 @@
 # CreativeCoding
-Fun ditgital computer science and design creations!
+Fun digital art creations!
